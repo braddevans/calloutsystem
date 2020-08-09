@@ -29,8 +29,6 @@ public class Main extends Application {
                     "height:[" + mode.getHeight() + "],\n" +
                     "WindowTitle:[" + mode.getWindowtitle() + "]"
             );
-        } else {
-
         }
 
         Parent root = FXMLLoader.load(getClass().getResource(mode.getFxmlfile()));
